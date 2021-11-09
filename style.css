@@ -95,15 +95,25 @@ pre code{
   background: #49bf9d;
   border: 2px solid #49bf9d;
   color: rgb(71, 4, 46);
-  padding: .75em;
+  padding: .75em 1.5em;
   border-radius: 5px;
   font-size: .8em;
+  display: inline-block;
 }
 
 .button-default-stroke{
   background-color: seashell;
   border-color: snow;
   color: inherit;
+}
+.button-default-small{
+font-size:.65em;
+}
+.button-default-full{
+
+  display: block;
+  text-align: center;
+  width: 300px;
 }
 .main-header{
 
